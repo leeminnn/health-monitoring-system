@@ -1,0 +1,57 @@
+.dashboard_wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 70vh;
+}
+
+.content{
+  width: 80%;
+  width: 70vw;
+}
+
+.dashboard_header {
+  text-align: center;
+  padding-top: 50px;
+  height: 150px;
+}
+
+.dashboard_alert {
+  z-index: 1000;
+  position: absolute;
+  width: 70%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.dashboard_list {
+  width: 250px;
+  border: 1px solid rgb(202, 195, 195);
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  height: 70vh;
+  margin-left: 50px;
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  background-color: rgb(255, 253, 253);
+}
+.dashboard_list::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.content_wrapper{
+  display: flex;
+}
+
+.ant-table-thead > tr > th {
+  color: white !important;
+  background: #1d817e !important;
+  font-size: large;
+}
+
+.data_wrapper {
+  display: flex;
+  justify-content: center;
+}

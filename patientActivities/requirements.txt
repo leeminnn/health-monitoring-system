@@ -1,0 +1,4 @@
+boto3==1.20.42
+uvicorn
+fastapi
+python-dotenv

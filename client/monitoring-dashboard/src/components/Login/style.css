@@ -1,0 +1,69 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.wrapper_form_input {
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+  background-color: rgb(252, 252, 252);
+  margin: 50px;
+  margin-right: 25%;
+  width: 400px;
+}
+
+.wrapper_ant_form {
+  margin: 50px !important;
+}
+
+.wrapper_space {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.wrapper_form {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.ant-input {
+  background: transparent !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #000000 !important;
+  padding: 0 !important;
+}
+
+.ant-input-password {
+  padding: 0 !important;
+}
+
+.ant-form-item-control-input {
+  min-height: 0 !important;
+}
+
+.wrapper_form_header {
+  text-align: center;
+}
+
+.wrapper_inner {
+  margin-left: 25px;
+}
+
+.ant-form-item-label {
+  width: 85px;
+  text-align: left !important;
+}
+
+.IconImg {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100px;
+}

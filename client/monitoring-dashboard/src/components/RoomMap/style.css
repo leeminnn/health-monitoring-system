@@ -1,0 +1,28 @@
+.room_map_wrapper{
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.row{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second_row{
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bed{
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text{
+    color: white;
+    font-size: medium
+}
